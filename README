@@ -37,4 +37,8 @@ How does this work?
 
 4) run our function
 
-    3> geonames:city_from_zip("zipcode").
+  3> geonames:city_from_zip("65201").
+  {"HE","Wiesbaden"}
+
+  4> geonames:cities_by_bound("44.1", "-10", "-22.4", "55.2").
+  {"Mexico City"}
