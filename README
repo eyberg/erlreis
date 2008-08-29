@@ -42,3 +42,10 @@ How does this work?
 
   4> geonames:cities_by_bound("44.1", "-10", "-22.4", "55.2").
   {"Mexico City"}
+
+So did you test any of this shit yet?
+-------------------------------------
+Nope. That is definitely on the list however.
+I really kind of want to make a test runner --
+eunit looks like a nice base however.
+
