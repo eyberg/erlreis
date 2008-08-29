@@ -1,0 +1,40 @@
+erlReis
+
+What is this?
+-------------
+An erlang client to access the geonames api.
+
+Why are you doing this?
+-----------------------
+this has started as a learning experiment for me with erlang
+it might change depending on my time and desire
+
+What's up with the name?
+------------------------
+Every software project has to have a decent name right? ;)
+Piri Reis was a Turkish admiral/cartographer who may have
+mapped Antartica three centuries before it was officially
+discovered.
+
+How does this work?
+-------------------
+
+1) start up erl
+    
+    [user@host] $ erl
+
+2) compile our code
+
+    Erlang (BEAM) emulator version 5.6.2 [source] [64-bit] [smp:2] [async-threads:0] [hipe] [kernel-poll:false]
+
+    Eshell V5.6.2  (abort with ^G)
+    1> c(geonames.erl).
+
+3) start the web server
+    
+    2> inets:start().
+    ok
+
+4) run our function
+
+    3> geonames:city_from_zip("zipcode").
