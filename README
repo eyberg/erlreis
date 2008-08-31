@@ -45,7 +45,16 @@ How does this work?
 
 So did you test any of this shit yet?
 -------------------------------------
-Nope. That is definitely on the list however.
-I really kind of want to make a test runner --
-eunit looks like a nice base however.
+We have 4 passing tests right now.
+I want to figure out howto make an
+automated test runner that could be
+integrated with autotest or something
+similar.
 
+If you would like to test the code
+you'll need to download eunit
+and throw a line similar to:
+
+code:add_pathz("/home/myuser/eunit/ebin").
+
+in your ~/.erlang.
